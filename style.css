@@ -1,0 +1,37 @@
+body {
+  background: repeating-linear-gradient(
+    45deg,
+    rgba(0, 100, 0, 0.2),
+    rgba(0, 100, 0, 0.2) 5px,
+    rgba(100, 0, 100, 0.3) 20px,
+    rgba(100, 0, 100, 0.3) 10px
+    ),
+    url(https://i.ytimg.com/vi/QQ80PbfYwtU/maxresdefault.jpg);
+    background-size: cover;
+}
+.refuse {
+  width: 100px;
+  height: 100px;
+  position: fixed;
+  left: 0px;
+  top: 0px;
+  background-size: auto;
+  background-image: url(https://discordemoji.com/assets/emoji/9827_jojo_menacing_1.gif);
+  resize: both;
+  overflow: hidden;
+  background-repeat: round;
+}
+div.examples {
+  width: 300px;
+  height: auto;
+  float: right;
+}
+div.examples img {
+  width: 100%;
+  height: auto;
+}
+div.desc {
+  position: static;
+  text-align: center;
+  color: lightgreen;
+}
